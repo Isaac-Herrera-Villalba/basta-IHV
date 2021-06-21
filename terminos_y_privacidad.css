@@ -1,0 +1,44 @@
+.body
+  {
+    font-size: 15px;
+    }
+
+    .cabecera
+   {
+    width: auto;   
+    height: auto;
+    text-align: center;
+    
+      }
+
+    .principal
+      {
+        
+        width: 90vw; 
+        height: 80vh; 
+       
+        
+         }
+
+
+        .caja_1
+        {
+            width: 20cm;
+            height: auto;
+            text-align: ;
+            display: block;
+            padding: 1vw 30vw;
+           
+          }
+
+          .texto
+            {
+                text-align: left;
+                
+               } 
+
+             .pie 
+             {
+                text-align: center;
+               
+                 }
