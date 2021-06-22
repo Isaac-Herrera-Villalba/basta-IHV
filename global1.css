@@ -1,0 +1,77 @@
+.cuerpo
+{
+    margin: 0;
+}
+
+.cabecera
+{
+    width: 98vw; 
+    padding: 1vw 5vw;
+}
+
+.caja_cabecera
+{
+    width: 100%; 
+    display:flex; 
+    align-items:center; 
+    justify-content: space-between;
+}
+
+.logo_cabecera
+{
+    width:auto;
+    height: 2.5rem;
+}
+
+.principal
+{
+    width: 90vw; 
+    height: 80vh; 
+    padding: 1vw 5vw;
+}
+
+.caja_principal
+{
+    margin-top: 1rem;
+}
+
+.caja_principal .logo_principal
+{
+    width: auto; 
+    height: 2rem;
+}
+
+.pie
+{
+    width: 75vw; 
+    padding: 1vw 12.5vw; 
+    display: flex; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.pie .logo_pie
+{
+    width: auto; 
+    height: 2.5rem;
+}
+
+.link_red
+{
+    width: 1rem; 
+    height: none
+}
+
+.logo_red
+{
+    width: 1rem; 
+    height: 1rem;
+}
+
+.logo_google_footer
+{
+    width: auto;
+    height: 2.5rem;
+}
+
