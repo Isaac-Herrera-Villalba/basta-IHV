@@ -4,68 +4,137 @@
     <meta charset="Arial">
     <meta http-equiv="X-UA-Compatible" content="Firefox">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/play.css">
+
     <title>Juego Basta | ¡A jugar! </title>
 </head>
 
-<body style="margin: 0;">
-   <header style="width: 90vw; padding: 1vw 5vw;">
-        <nav style= "width: 100%; display: flex; align-items:center; justify-content: space-between;"">
-           <span>
-                <a href="index.html"> 
-                  <img style="width:auto; height: 2.5rem;" 
-                  src="https://www.alfabetajuega.com/wp-content/uploads/2019/10/Geralt-de-Rivia.jpg" 
-                  alt="logo de la página" />
-               </a>
-           </span>
-           <a href="index.html">Regresar </a>
+<body>
+    <header>
+        <nav class="caja_cabecera">
+          <a class="logo" href="./index.html">
+            <img 
+            src="./img/stopmoji.svg" 
+            alt="logo de la página" 
+            /> 
+            <h1>Basta!</h1>
+         </a>
         </nav>
     </header>
    
    <main>
-    <table style="width: 100%;">
+    <table>
         <thead>
            <tr>
-            <th style="width: 120px; height:80px;"> Nombre</th>
-            <th style="width: 120px; height:80px;"> Apellido</th>
-            <th style="width: 120px; height:80px;"> Flor/fruto</th>
-            <th style="width: 120px; height:80px;"> Ciudad/país</th>
-            <th style="width: 120px; height:80px;"> Color</th>
-            <th style="width: 120px; height:80px;" >Cosa </th>
-            <th style="width: 120px; height:80px;"> Animal </th>
-            <th style="width: 120px; height:80px;">Total </th>
+            <th> Nombre</th>
+            <th > Apellido</th>
+            <th> Flor/fruto</th>
+            <th> Ciudad/país</th>
+            <th> Color</th>
+            <th>Cosa </th>
+            <th> Animal </th>
+            <th>Total </th>
             </tr> 
         </thead>
         
         <tbody> 
             <tr>
-               <td style="width: 120px; height: 40px;"> Michael</td>
-               <td style="width: 120px; height: 40px;"> Martinez</td>
-               <td style="width: 120px; height: 40px;"> Mango</td>
-               <td style="width: 120px; height: 40px;"> Marruecos</td>
-               <td style="width: 120px; height: 40px;"> Marrón</td>
-               <td style="width: 120px; height: 40px;"> Maqueta</td>
-               <td style="width: 120px; height: 40px;"> Mamút</td>
-               <td style="width: 120px; height: 40px;"> </td>
+               <td> Michael</td>
+               <td> Martinez</td>
+               <td> Mango</td>
+               <td> Marruecos</td>
+               <td> Marrón</td>
+               <td> Maqueta</td>
+               <td> Mamút</td>
+               <td> </td>
             </tr>
             <tr>
-                <td style="width: 120px; height: 40px;"> Dafne</td>
-                <td style="width: 120px; height: 40px;"> Díaz</td>
-                <td style="width: 120px; height: 40px;"> Durazno</td>
-                <td style="width: 120px; height: 40px;"> Durango</td>
-                <td style="width: 120px; height: 40px;"> Dorado</td>
-                <td style="width: 120px; height: 40px;"> Dado</td>
-                <td style="width: 120px; height: 40px;"> Dodo</td>
+              <td> Dafne</td>
+              <td> Díaz</td>
+              <td> Durazno</td>
+              <td> Durango</td>
+              <td> Dorado</td>
+              <td> Dado</td>
+              <td> Dodo</td>
              </tr>
         </tbody>
       
         <tfoot>
             <tr>
-                <td colspan="7" style="text-align: right;"> Total </td>
-                <td style="text-align: center">100</td>
+                <td colspan="7" class="total"> Total </td>
+                <td class="total-value"> 100</td>
             </tr>
         </tfoot>
         </table>
       </table>
     </main>
+
+    <footer> 
+        <span class="logo">
+          <img 
+           class="animated-logo"
+           src="./img/stopmoji.svg" 
+           alt="logo de la página" 
+            /> 
+         </span>
+
+         <span>
+             <div class="terms-priv">
+                 <a href="terms.html"> Términos del servicio </a>
+                 <a href="priv.html"> Términos del privacidad </a>
+             </div>
+
+             <div class="social-links">
+               <a 
+                class="link_red"
+                href="https://www.instagram.com/">
+                  </a>
+                <img
+                class="logo_red"
+                src="./img/logo-instagram.svg"
+                alt="logo Instagram"> 
+                <a 
+                class="link_red"
+               
+                href="https://es-la.facebook.com/">
+                  </a>
+                <img
+                class="logo_red"
+                src="./img/logo-facebook.svg"
+                alt="logo Facebook"> 
+
+                <a 
+                class="link_red"
+               
+                href="https://twitter.com/?lang=es">
+                  </a>
+                <img
+                class="logo_red"
+              
+                src="./img/logo-twitter.svg"
+                alt="logo Twitter">
+                
+                <a 
+                class="link_red"
+                
+                href="https://discord.com/">
+                  </a>
+                <img
+                class="logo_red"
+                
+                src="./img/logo-discord.svg"
+                alt="logo Discord"> 
+             </div>
+         </span>
+
+         <span>
+           <img
+           class="logo"
+           src="./img/blogo.svg"
+           alt="logo basta"> 
+         </span>
+  </footer>
+
 </body>
 </html>

@@ -1,9 +1,23 @@
-.body
-  {
-    font-size: 15px;
-    }
+main
+  
+{
+    
+    margin: 0;
+    background: linear-gradient(
+        to bottom right,
+        #15054E,
+        #3d065f 70%,
+        #10054d
+        );
 
-    .cabecera
+    width: 100vw; /*vw: wiewport length width*/
+    height: 100vh; /*vw: wiewport length height*/
+}
+    
+
+
+
+    header
    {
     width: auto;   
     height: auto;
@@ -37,7 +51,7 @@
                 
                } 
 
-             .pie 
+             footer
              {
                 text-align: center;
                
